@@ -1,0 +1,48 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+header {
+	height: 3rem;
+	padding-left: 1rem;
+	background-color: #fde2ba;
+}
+header p {
+	line-height: 1.4;
+}
+
+main .container {
+	width: 100vw;
+	height: calc(100vh - 3rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #af874b;
+}
+#room {
+	background-color: #ffffff;
+	width: 80vmin;
+	height: 80vmin;
+	display: grid;
+	grid-template-columns: repeat(19, 1fr); /* ROOM_WIDTH */
+	grid-template-rows: repeat(19, 1fr);    /* ROOM_HEIGHT */
+}
+.cat {
+	background: no-repeat center center / contain;
+}
+/* NUM_CAT_FACES */
+.cat[data-cat-id='1'] { background-image: url('media/c01.jpg'); }
+.cat[data-cat-id='2'] { background-image: url('media/c02.jpg'); }
+.cat[data-cat-id='3'] { background-image: url('media/c03.jpg'); }
+.cat[data-cat-id='4'] { background-image: url('media/c04.jpg'); }
+.cat[data-cat-id='5'] { background-image: url('media/c05.jpg'); }
+.cat[data-cat-id='6'] { background-image: url('media/c06.jpg'); }
+.cat[data-cat-id='7'] { background-image: url('media/c07.jpg'); }
+.cat[data-cat-id='8'] { background-image: url('media/c08.jpg'); }
+
+.food {
+	background: url('media/kari.png') no-repeat center center / contain;
+}
