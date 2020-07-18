@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" defer src="js/script.js"></script>
+    </head>
+    <body>
+        <main class="jsMain">
+            <div class="container">
+                <div class="header">
+                    <div class="clock jsClock"></div>
+                    <h2 class="title">Timeout<span class="sub-title">(ただいま離席中)</span></h2>
+                </div>
+
+                <div class="message-wrap">
+                    <div class="message jsMessage"></div>
+                    <div class="sub-message jsSubMessage"></div>
+                </div>
+            </div>
+        </main>
+        <div class="jsForm form">
+            <div><label class="form-label"></label>
+                <button type="button" class="btn" onclick="script:toJust()">ちょっと</button>
+                <button type="button" class="btn" onclick="script:toWhile()">しばらく</button>
+                <button type="button" class="btn" onclick="script:toLeaving()">終わり</button>
+            </div>
+            <div><label class="form-label">message</label><input type="text" name="message" /></div>
+            <div><label class="form-label">sub message</label><input type="text" name="sub-message" /></div>
+            <div><label class="form-label"></label><button type="button" class="btn" onclick="script:submitTimeout()">離席</button></div>
+        </div>
+    </body>
+</html>

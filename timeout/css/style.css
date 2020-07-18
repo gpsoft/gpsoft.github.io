@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Lato;
+	src: url('../fonts/Lato-Regular.ttf');
+	font-weight: 400;
+}
+@font-face {
+	font-family: Lato;
+	src: url('../fonts/Lato-Black.ttf');
+	font-weight: 900;
+}
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+* ~ * {
+	/* margin-top: 1em; */
+}
+
+body {
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	background-color: #f5f5f5;
+}
+
+.hide {
+	display: none !important;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	width: 80vw;
+	max-width: 800px;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: #565656;
+}
+.sub-title {
+	margin-left: 0.5em;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.clock {
+	float: right;
+	font-weight: 900;
+	font-size: 1.5rem;
+	color: #565656;
+}
+
+.message-wrap {
+	flex-grow: 1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.message {
+	font-size: 2rem;
+	letter-spacing: 4px;
+}
+.sub-message {
+	font-size: 1.2rem;
+	margin-top: 1em;
+}
+
+.form {
+	padding: 2em;
+}
+.form > * ~ * {
+	margin-top: 1em;
+}
+.form-label {
+	display: inline-block;
+	width: 6em;
+	text-align: right;
+	margin-right: 0.5em;
+}
+.btn {
+	padding: 4px 8px;
+	background-color: hsl(210, 74%, 57%);
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: hsl(210, 74%, 65%);
+}
