@@ -15,3 +15,10 @@ JavaScriptで作る、スネークゲームの猫バージョン。
 [デモ(GitHub)](https://gpsoft.github.io/snyake/index.html)。
 
 ![snyake](ss/snyake.png)
+
+## Timeout 〜 離席メッセージボード
+
+リモートワーク対策。
+
+[デモ(GitHub)](https://gpsoft.github.io/timeout/index.html)。
+
