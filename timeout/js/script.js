@@ -31,7 +31,7 @@ function toJust() {
 	timeout('ちょっと離席中。', 'すぐ戻ります。');
 }
 function toWhile() {
-	timeout('所用のため、作業を中段してます。', '戻ってくる予定です。');
+	timeout('所用のため、作業を中断してます。', '戻ってくる予定です。');
 }
 function toLeaving() {
 	timeout('本日の作業は終了しました。', 'たぶん、戻りません。');
