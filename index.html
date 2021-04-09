@@ -1,24 +1,92 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset='utf-8' />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	</head>
-	<body>
-		<h2>目次</h2>
-		<h3>メンタリング資料</h3>
-		<ul>
-			<li><a href="https://github.com/gpsoft/ksp">Kick Start Programming</a></li>
-			<li><a href="https://github.com/gpsoft/ksp/tree/master/devtools/index.md">開発者ツール</a></li>
-		</ul>
-		<h3>試作品</h3>
-		<ul>
-			<li><a href="navbar/">ランディングページ試作</a></li>
-			<li><a href="snyake/">すにゃぁく(スネークゲーム)</a></li>
-			<li><a href="timeout/">Timeout(離席掲示板)</a></li>
-			<li><a href="cloclock/">アナログ時計</a></li>
-			<li><a href="clobanner/">バナー画像作成ツール</a></li>
-			<li><a href="cloyster/">カキ養殖いかだ管理ツールモック</a></li>
-		</ul>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="試作ソフトやプログラミングのメンタリング資料を公開します。">
+	<title>GPソフト@GitHub</title>
+	<link rel="stylesheet" type="text/css" href="css/milligram.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<main class="container">
+		<p class="intro">フリーランス・プログラマーのGPソフトです。このサイトでは、プログラミングのメンタリング資料や試作ソフトを公開します。</p>
+		<section>
+			<h1>目次</h1>
+			<article>
+				<h2>メンタリング資料</h2>
+				<div class="doc-cards">
+					<div class="doc-card">
+						<h3 class="doc-card__title">Kick Start Programming</h3>
+						<p class="doc-card__desc">あなたのプログラミング学習を加速させる予備知識を伝授します。</p>
+						<a class="doc-card__link" href="https://github.com/gpsoft/ksp">Read doc</a>
+					</div>
+					<div class="doc-card">
+						<h3 class="doc-card__title">開発者ツール</h3>
+						<p class="doc-card__desc">Web開発に必携!! ブラウザの「開発者ツール」機能を紹介します。</p>
+						<a class="doc-card__link" href="https://github.com/gpsoft/ksp/tree/master/devtools/index.md">Read doc</a>
+					</div>
+					<div class="doc-card">
+						<h3 class="doc-card__title">Java Sand</h3>
+						<p class="doc-card__desc">基礎的なJavaプログラミングの実験プロジェクトです。</p>
+						<a class="doc-card__link" href="https://github.com/gpsoft/java_sand">View Sources</a>
+					</div>
+					<div class="doc-card">
+						<h3 class="doc-card__title">Spring Sand</h3>
+						<p class="doc-card__desc">Spring Bootを使ったWebアプリの実験プロジェクトです。</p>
+						<a class="doc-card__link" href="https://github.com/gpsoft/spring_sand">View Sources</a>
+					</div>
+					<div class="doc-card">
+						<h3 class="doc-card__title">Sql Sand</h3>
+						<p class="doc-card__desc">SQLの練習プロジェクトです。MySQLを使います。</p>
+						<a class="doc-card__link" href="https://github.com/gpsoft/sql_sand">View Sources</a>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h2>試作ソフト</h2>
+				<div class="row">
+					<div class="column prg-card">
+						<a class="prg-card__link" href="navbar/">ランディングページ</a>
+						<p class="prg-card__desc">Navbar, ドロップダウンメニュー、ハンバーガーメニュー、カードなどの試作。</p>
+					</div>
+					<div class="column prg-card">
+						<a class="prg-card__link" href="snyake/">すにゃぁく</a>
+						<p class="prg-card__desc">素のJavaScriptで書いたスネークゲーム。</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column prg-card">
+						<a class="prg-card__link" href="timeout/">Timeout</a>
+						<p class="prg-card__desc">リモートワーク用の離席掲示板。</p>
+					</div>
+					<div class="column prg-card">
+						<a class="prg-card__link" href="cloclock/">アナログ時計</a>
+						<p class="prg-card__desc">ClojureScriptで書いたアナログ時計。Mondaineの秒針をシミュレート。
+							<a href="https://github.com/gpsoft/cloclock">
+								<img class="prg-card__github" src="img/github.png"
+									srcset="img/github.png 1x, img/github@2x.png 2x">
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column prg-card">
+						<a class="prg-card__link" href="clobanner/">バナー画像作成ツール</a>
+						<p class="prg-card__desc">宣言的バナー画像作成ツール。Written in ClojureScript.
+							<a href="https://github.com/gpsoft/clobanner">
+								<img class="prg-card__github" src="img/github.png"
+									srcset="img/github.png 1x, img/github@2x.png 2x">
+							</a>
+						</p>
+					</div>
+					<div class="column prg-card">
+						<a class="prg-card__link" href="cloyster/">カキ養殖いかだ管理ツールモック</a>
+						<p class="prg-card__desc">地図サービスAPIの勉強。</p>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+</body>
 </html>

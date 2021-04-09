@@ -1,0 +1,97 @@
+body {
+	font-size: 17px;
+	color: #333;
+	background-color: #f2f9ff;
+}
+h1 {
+	font-size: 3.6rem;
+}
+h2 {
+	font-size: 2.4rem;
+}
+h3 {
+	font-size: 2.0rem;
+}
+article + article {
+	margin-top: 4em;
+}
+.container {
+	max-width: 100rem;
+}
+
+.doc-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14em, auto));
+	grid-gap: 1em;
+}
+.doc-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 10em;
+	border: 2px solid #9eb8d1;
+	border-radius: 8px;
+	padding: 12px;
+	text-align: center;
+	background-color: #dcedfd;
+}
+.doc-card > * + * {
+}
+.doc-card__title {
+	font-size: 2.4rem;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+.doc-card__desc {
+	text-align: left;
+	color: #555;
+}
+.doc-card__link {
+	background-color: #578aba;
+	font-weight: bold;
+	padding: 4px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+}
+.doc-card__link,
+.doc-card__link:hover,
+.doc-card__link:visited {
+	color: #fff;
+}
+.doc-card__link:hover {
+	background-color: #6c9ecd;
+}
+
+.column.prg-card {
+	background-color: #fae9dd;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	padding: 8px;
+	box-shadow: 0 0 8px #9b897c;
+}
+.prg-card + .prg-card {
+}
+.prg-card__link {
+	display: block;
+	margin-bottom: 0.8em;
+	line-height: 1;
+	font-weight: bold;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+.prg-card__link,
+.prg-card__link:hover,
+.prg-card__link:visited {
+	color: #77380b;
+}
+.prg-card__desc {
+	color: #555;
+	line-height: 1.4;
+	margin-bottom: 0;
+}
+.prg-card__github {
+	width: 24px;
+	vertical-align: middle;
+}
