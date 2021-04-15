@@ -1,3 +1,1 @@
-# gpsoft.github.io
-
-[gpsfot@github](https://gpsoft.github.io/)
+Please visit [gpsoft@github.](https://gpsoft.github.io/)
